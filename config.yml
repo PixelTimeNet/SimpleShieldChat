@@ -1,0 +1,22 @@
+# 简单屏蔽聊天 SimpleShieldChat 插件
+# 作者：Month_Light
+
+# 插件版本号
+version: 1.0
+
+# 插件的前缀
+Prefix: '&f[&c屏蔽聊天&f] '
+
+# 插件消息配置
+Messages:
+    # 注意可以修改文本，但是不要修改里面的格式符 %1$s，%2$s 等
+    NoPermission: '&c你没有使用这个命令的权限.'
+    ErrorCommandArgs: '&c未知的命令参数，请使用: %1$s'
+    SimpleShieldChatReload: '&a配置文件已经重新载入...'
+    ContainsKeyword: '&d你的聊天内容包含关键字, 已被系统屏蔽.'
+
+# 玩家聊天的关键字列表
+# 当聊天消息包含这些关键字
+# 就会将消息自动进行屏蔽并阻止
+# 拥有 moonlake.simpleshieldchat.ignore 则无视
+List: []
